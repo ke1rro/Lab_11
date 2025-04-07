@@ -3,10 +3,12 @@ Lenyk Nikita
 Problem: Implement Queue using Stacks
 """
 
+
 class Nonde:
     """
     Node class
     """
+
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
@@ -16,6 +18,7 @@ class Stack:
     """
     Stack class
     """
+
     def __init__(self):
         self.head = None
         self.size = 0
@@ -75,6 +78,7 @@ class MyQueue:
     """
     Queue implementation using 2 stacks
     """
+
     def __init__(self):
         self.in_stack = Stack()
         self.out_stack = Stack()

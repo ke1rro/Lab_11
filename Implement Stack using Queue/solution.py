@@ -2,6 +2,7 @@ class Node:
     """
     Node class
     """
+
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
@@ -11,6 +12,7 @@ class Queue:
     """
     Queue class
     """
+
     def __init__(self):
         self.front = None
         self.rear = None
@@ -84,6 +86,7 @@ class MyStack:
     """
     MyStack class
     """
+
     def __init__(self):
         self.q = Queue()
 
